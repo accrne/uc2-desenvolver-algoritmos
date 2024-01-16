@@ -1,0 +1,7 @@
+* Lógica de programção *
+
+Os estudos de lógica remeten à antiguidade, com registros e citações de Aristóteles (384 a.c.) à lógica matemática. A lógica tmabém está presente na filosofia, quando o ser humano reflete sobre o próprio pensamento.
+
+Desmembrar um problema, organizar um pensamento e ordenar passos para obter algum resultado.
+
+* Lógica analítica *
