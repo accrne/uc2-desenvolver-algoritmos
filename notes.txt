@@ -5,3 +5,62 @@ Os estudos de lógica remeten à antiguidade, com registros e citações de Aris
 Desmembrar um problema, organizar um pensamento e ordenar passos para obter algum resultado.
 
 * Lógica analítica *
+
+"... ação de analisar um prblema e julgar se ele é verdadeiro ou falso..."
+
+e. g.
+
+Ontem choveu.
+
+Hoje está chovendo.
+
+Amanhã vai chover.
+
+O que se observa nas frases é um raciocínio lógico. As duas primeiras frases apresentam os fatos, e a terceira frase é a conclusão baseada neles. Só se chega a uma conclusão porque as duas frases anteriores embasam a afirmação. Entretanto, note que os fatos podem ser interpretados de forma errada. Chover não é uma constância em todos os dias do ano, e sim um evento que pode acontecer. Logo, não se pode afirmar que de fato amanhã vai chover. Pelas frases, pode-se considerar que há mais chances de amanhã chover também, mas não se pode afirmar que vai chover.
+
+
+* Os três pilares da lógica: dedução, indução e abdução *
+
+* Dedução: é utillizada para determinar uma conclusão.
+
+* Indução: observa o mundo como ele é, do geral, e somente a partir daí se pode desenvolver uma lógica ou chegar a uma conclusão (verdadeira ou falsa).
+
+Dedução parte do geral para o particular, a indução do particular para o geral. Dedução as premissas são verdadeiras, garantindo uma conclusão verdadeira, a indução baseia-se em premissas verdadeiras, porém que não garantem uma conclusão verdadeira.
+
+* Adbução: terceira via da lógica, meio-termo, tem caráter intuitivo, concluindo qual a melhor explicação junto com conhecimento de fundo (repertório de conhecimento) não a com maior probabilidade.
+
+
+* Dedução
+
+Quando chove, a grama fica molhada.
+
+Choveu hoje.
+
+Portanto, a grama está molhada.
+
+
+* Indução
+
+A grama ficou molhada todas as vezes em que choveu.
+
+Então, se chover amanhã, a grama ficará molhada.
+
+
+
+* Abdução
+
+Quando chove, a grama fica molhada.
+
+A grama está molhada, então pode ter chovido.
+
+----------------------------------------------------------- // -----------------------------------------------------------
+
+* Lógica booliana *
+
+George Boole foi o matemático que criou um sistema númerico de valores infinitos para representar a lógica em equações matemáticas. Dois valores são possíveis: um e zero. Zero sendo falso e UM verdadeiro. Valores em oposição um para o outro, valores únicos possíveis.
+
+* Operadores booleanos (conectivos)
+
+* Operador unário: aplicado sobre apenas uma sentença.
+
+* Operador binário: aplicado sobre duas sentenças.
