@@ -64,3 +64,61 @@ George Boole foi o matemático que criou um sistema númerico de valores infinit
 * Operador unário: aplicado sobre apenas uma sentença.
 
 * Operador binário: aplicado sobre duas sentenças.
+
+
+* Disjunção "ou": O “ou” é um operador binário, ou seja, precisa de duas informações para conseguir ser utilizado. Quando tal operador é utilizado, desde que uma das informações seja verdadeira (1), ele resultará em verdadeiro (1). Independentemente se a primeira ou a segunda informação for verdadeira, o retorno será verdadeiro. Se ambas forem falsas (0), o resultado será falso (0).
+
+*Conjunção "e": O “e” é um operador binário e, assim como o “ou”, precisa de duas informações para ser utilizado. O “e” é um operador exigente, porque só retornará verdadeiro (1) se ambas as informações forem verdadeiras (1).
+
+* Negação: Diferentemente do “e” e do “ou”, a negação trabalha baseada em uma única informação, caracterizando-se assim com operador unário. Se a informação é verdadeira (1), torna-se falsa (0); se era falsa (0), torna-se verdadeira (1).
+
+
+----------------------------------------------------------- // -----------------------------------------------------------
+
+
+* Algoritmos * 
+
+"... algoritmos são uma série de instruções usadas por computadores visando a resolver dado problema para que se chegue a uma solução.", "... existem, assim, diversas formas de escrever um algoritmo. Algumas são mais informais, algumas formais e matemáticas e outras até mesmo por meio de gráficos."
+
+* Passo de desenvolvimento:
+
+* Descrição do problema
+* Analisar o problema
+* Desenvolver um algoritmo de alto nível
+* Refinar o algoritmo
+
+----------------------------------------------------------- // -----------------------------------------------------------
+
+* Algoritmos: naturais e estruturados; representações visuais, linguagem algorítmica, comandos de entrada, processamento e saída de dados *
+
+"... Os algoritmos partem da lógica para esquematizar os passos necessários para se partir de uma situação original (entrada) e atingir um objetivo (saída)..."
+
+
+* Algoritmos naturais e estruturados *
+
+* Algoritmos naturais: os algoritmos naturais são criados de maneira simples e escritos de forma textual, usando o português coloquial. São claros, finitos e têm cada passo detalhado. Além disso, os algoritmos contribuem no desenvolvimento de uma aplicação, pois podem direcionar, de forma simples e eficiente, as descrições dos problemas e suas soluções.
+
+* Algoritmos estruturados: os algoritmos estruturados se aproximam de uma linguagem de programação convencional. Esses algoritmos são criados seguindo uma estrutura de comandos, sintaxes e termos específicos. Além disso, apresentam estruturas bem mais definidas, como:
+
+Sequências: instruções executadas uma a uma, na sequência em que aparecem no programa.
+Seleções: instrução if-else, que seleciona 1 entre 2 caminhos possíveis.
+Repetições: instruções executadas várias vezes.
+
+----------------------------------------------------------- // -----------------------------------------------------------
+
+
+*Linguagem algorítmica *
+
+"Tanto os algoritmos naturais quanto as representações visuais de algoritmos permitem um nível de clareza muito grande, porém eles têm suas vantagens e desvantagens. A facilidade de perceber o fluxo de execução do programa é evidentemente mais clara, mas sua grande desvantagem é que existe a necessidade do conhecimento das convenções gráficas de cada uma das técnicas, pois, apesar de serem simples, não são naturais, pois é mais comum a expressão de ações por meio de palavras."
+
+* Pseudocódigo *
+
+"... também é chamado de linguagem estruturada, pois reúne um conjunto de comando ou ações, usando uma linguagem simples, que se aproxima de uma linguagem de programação."
+
+
+* Portugol *
+
+Pseudolinguagem algorítmica que utiliza a língua portuguesa PORTguês + alGOl + PascaL, português estruturado, criado por Antônio Carlos e Antônio Manso em 1986.
+
+
+
