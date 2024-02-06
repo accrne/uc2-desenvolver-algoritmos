@@ -6,11 +6,11 @@ programa
 		inteiro garcon
 		real horas, custoHora= 10.50, custoTotal
 
-		escreva("Quantos garçons serão necessários?", "\n")
+		escreva("Quantos garçons serão necessários? \n")
 		leia(garcon)
 		limpa()
 
-		escreva("Quantas horas terá o evento?", "\n")
+		escreva("Quantas horas terá o evento? \n")
 		leia(horas)
 		limpa()
 
@@ -24,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 350; 
+ * @POSICAO-CURSOR = 211; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
