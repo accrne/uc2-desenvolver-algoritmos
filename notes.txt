@@ -120,5 +120,34 @@ Repetições: instruções executadas várias vezes.
 
 Pseudolinguagem algorítmica que utiliza a língua portuguesa PORTguês + alGOl + PascaL, português estruturado, criado por Antônio Carlos e Antônio Manso em 1986.
 
+----------------------------------------------------------- // -----------------------------------------------------------
 
+* Manipulação de dados *
+
+"... verá como os dados são representados internamente para que o computador possa entendê-los e utilizá-los corretamente..."
+
+
+* Representação de dados *
+
+* Representação interna *
+
+Humanos normalmente usam base decimal de 10, por causa de seus dedos. Computadores usam o sistema binário (base de 2, zero e um). Podendo ser representados por valores como 0 e 1, ligade e desligado, verdadeiro ou falso. O elemento mínimo capaz de guardar informação é o bit (binary digit). Para números maiores, como no sistema binário a quantidade seria gigantesca, também se usa outros sistemas como hexadecimal ou octal.
+
+* Tipos Primitivos *
+
+Dados são armazenado de acordo com o tipo de informação que ele representa e com a operação ser realizada com eles. O uso da representação correta otimiza os recursos empregados, gerando processamento mais rápido. Existem tipos de dados mais comuns encontrados na maioria das linguagens de programação, formando a base de como a informação deve ser armazenada.  
+
+
+* Inteiro - números pertencentes ao conjunto dos inteiros. (ℤ = {..., - 3, - 2, - 1, 0, 1, 2, 3, ...}), ou seja, não têm parte fracionária e podem ser negativos, nulos ou positivos;
+
+* Real - números que tem parte fracionária, ou ponto flutuante, os números reais são formados pela união dos conjuntos dos números Naturais, Inteiros, Racionais e Irracionais;
+
+* Cadeia - representa uma formação literal, com dois 2 ou mais caracteres alfanúmericos, armazenamento de texto ou quantidade grande de caracteres.
+
+* Caractere - representa qualquer caractere da união dos valores pertencentes ao sistema numérico decimal, na forma de números binários utilizando o padrão ASCII. Indicação de início e fim se dá pelo uso de aspas simples.
+
+* Lógico - representação de dois valores: verdadeiro ou falso (true or false), V ou F, pelos estados ligado e desligado, aberto e fechado, etc. Sempre apenas um valor.
+
+
+* Constantes e Variáveis *
 
