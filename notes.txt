@@ -150,4 +150,30 @@ Dados são armazenado de acordo com o tipo de informação que ele representa e 
 
 
 * Constantes e Variáveis *
+Os algoritmos lidam com manipulação de dados, estes poderam apresentar valores diferentes em momentos diferentes. Dados constantes não se modificam do início ao fim do algoritmo ou programa. Já os variáveis  se modificam seja por cálculos internos ou interferência do usuário.
+
+* O ato de criar uma variável é chamado de declaração de variável, passo básico em várias linguagens de programação; não sendo possível usar uma variável sem antes declará-la.
+Ao se declarar se atribui um nome para que seja referenciada posteriormente no código.
+
+Declarar uma variável significa reservar um espaço na memória do computador para guardar um valor. 
+
+* Manipulação dos dados:
+
+* Identificação *
+
+Para manipular esses dados é necessário que sejam identificados, assim pode ser recuperado pelo seu nome (seguindo algumas regras de descrição de como podem ser escritos esses nomes):
+
+* Deve iniciar com um caractere do alfabeto (letra).
+* Pode ser seguido por um ou mais caracteres alfanuméricos (letras e números).
+* Não pode conter caracteres especiais nem espaços, com exceção do sublinhado (‘_’).
+* Não pode conter palavras reservadas (palavras próprias da linguagem de programação, como instruções ou comandos, tipos de variáveis etc.).
+* Não pode conter caracteres do alfabeto latino (ç, ~, ´, `, ^, ¨).
+* Evitar iniciar com letras maiúsculas. No caso de nomes compostos, a segunda palavra deve iniciar por letra maiúscula (camel case).
+
+* Definição ou declaração *
+
+Declaração de constantes: const inteiro variavelTeste = 0
+
+* Atribuição de valores *
+
 
