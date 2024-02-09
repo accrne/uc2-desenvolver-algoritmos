@@ -46,14 +46,15 @@ A grama ficou molhada todas as vezes em que choveu.
 Então, se chover amanhã, a grama ficará molhada.
 
 
-
 * Abdução
 
 Quando chove, a grama fica molhada.
 
 A grama está molhada, então pode ter chovido.
 
+
 ----------------------------------------------------------- // -----------------------------------------------------------
+
 
 * Lógica booliana *
 
@@ -87,7 +88,9 @@ George Boole foi o matemático que criou um sistema númerico de valores infinit
 * Desenvolver um algoritmo de alto nível
 * Refinar o algoritmo
 
+
 ----------------------------------------------------------- // -----------------------------------------------------------
+
 
 * Algoritmos: naturais e estruturados; representações visuais, linguagem algorítmica, comandos de entrada, processamento e saída de dados *
 
@@ -103,6 +106,7 @@ George Boole foi o matemático que criou um sistema númerico de valores infinit
 Sequências: instruções executadas uma a uma, na sequência em que aparecem no programa.
 Seleções: instrução if-else, que seleciona 1 entre 2 caminhos possíveis.
 Repetições: instruções executadas várias vezes.
+
 
 ----------------------------------------------------------- // -----------------------------------------------------------
 
@@ -120,7 +124,9 @@ Repetições: instruções executadas várias vezes.
 
 Pseudolinguagem algorítmica que utiliza a língua portuguesa PORTguês + alGOl + PascaL, português estruturado, criado por Antônio Carlos e Antônio Manso em 1986.
 
+
 ----------------------------------------------------------- // -----------------------------------------------------------
+
 
 * Manipulação de dados *
 
@@ -129,9 +135,11 @@ Pseudolinguagem algorítmica que utiliza a língua portuguesa PORTguês + alGOl 
 
 * Representação de dados *
 
+
 * Representação interna *
 
 Humanos normalmente usam base decimal de 10, por causa de seus dedos. Computadores usam o sistema binário (base de 2, zero e um). Podendo ser representados por valores como 0 e 1, ligade e desligado, verdadeiro ou falso. O elemento mínimo capaz de guardar informação é o bit (binary digit). Para números maiores, como no sistema binário a quantidade seria gigantesca, também se usa outros sistemas como hexadecimal ou octal.
+
 
 * Tipos Primitivos *
 
@@ -152,10 +160,12 @@ Dados são armazenado de acordo com o tipo de informação que ele representa e 
 * Constantes e Variáveis *
 Os algoritmos lidam com manipulação de dados, estes poderam apresentar valores diferentes em momentos diferentes. Dados constantes não se modificam do início ao fim do algoritmo ou programa. Já os variáveis  se modificam seja por cálculos internos ou interferência do usuário.
 
+
 * O ato de criar uma variável é chamado de declaração de variável, passo básico em várias linguagens de programação; não sendo possível usar uma variável sem antes declará-la.
 Ao se declarar se atribui um nome para que seja referenciada posteriormente no código.
 
 Declarar uma variável significa reservar um espaço na memória do computador para guardar um valor. 
+
 
 * Manipulação dos dados:
 
@@ -170,10 +180,76 @@ Para manipular esses dados é necessário que sejam identificados, assim pode se
 * Não pode conter caracteres do alfabeto latino (ç, ~, ´, `, ^, ¨).
 * Evitar iniciar com letras maiúsculas. No caso de nomes compostos, a segunda palavra deve iniciar por letra maiúscula (camel case).
 
+
 * Definição ou declaração *
 
 Declaração de constantes: const inteiro variavelTeste = 0
 
 * Atribuição de valores *
+Forma mais comum de manipulação de dados é a atribuição (=), quando o algoritmo recebe um valor.
+
+
+* Expressões aritméticas *
+"... os operadores são aritméticos e os operandos são valores do tipo inteiro ou real..."
+
+
+----------------------------------------------------------- // -----------------------------------------------------------
+
+
+* Condicionais: lógica booliana, estrutura condicional simples e composta *
+
+* Lógica booliana *
+"...a lógica booliana, também chamada de álgebra booliana, é uma forma de representação lógica com o uso de equações matemáticas..."
+
+
+* Operadores relacionais *
+São operadores de comparação entre valores e/ou expressões cujo resultado é um valor lógico (verdadeiro ou falso)
+
+Igual, Maior que, Menor que, Maior ou igual a, Menor ou igual a, Diferente de
+
+
+* Equações boolianas *
+
+E(AND), OU(OR), NÃO(NOT), NÃO-E(NAND), NÃO-OU(NOR), OU-EXCLUSIVO(XOR) e NÃO-OU-EXCLUSIVO(XNOR).
+
+
+* Estruturas condicionais *
+Estruturas que necessitam de condições para serem testadas. Estruturas de decisão ou desvio condicional.
+
+
+* Estrutura condicional simples *
+Função de executar um ou vários comandos para testar se a condição é verdaeira ou falsa. Caso seja falsa, a estrutura é finalizada sem executar os comandos.
+
+
+* Estrutura condicional composta * 
+Mesmo princípio da estrutura condicional simples, porém, caso a condição não seja executada, o algoritmo segue a execução para outro comando.
+
+
+* Escolha caso *
+
+----------------------------------------------------------- // -----------------------------------------------------------
+
+escolha caso (variavel)
+
+caso 1:		
+		comando()
+		pare
+
+caso 2:
+
+caso 3:
+
+caso contrario
+
+----------------------------------------------------------- // -----------------------------------------------------------
+
+
+* Repetições: estruturas de repetição condicional pré-teste, pós-teste e com variável de controle *
+"...  As estruturas de repetição são basicamente blocos de comandos que são repetidos até atingirem uma condição definida, como loopings..."
+As estruturas de repetição podem ser definidas como pré-teste, pós-teste e com variável.
+
+* Estrutura de repetição pré-teste: enquanto (while) *
+A estrutura pré-teste, tal como seu nome aponta, é uma estrutura que verificará se a condição especificada no código é atendida antes mesmo de executar os comandos do laço de repetição, dessa forma, enquanto a condição estiver sendo atendida (retornando verdadeiro), os comandos definidos dentro desse laço serão executados. Se a condição seguir sendo verdadeira, o comando seguirá sendo executado repetidamente até que a condição em algum momento retorne falso. Caso a condição não seja atendida já em sua primeira execução, a estrutura de repetição será finalizada e as informações dentro dela não serão percorridas em momento algum, portanto, ao criar essa estrutura de repetição, atente-se para que o contexto inserido permita a entrada nessa estrutura no mínimo uma vez quando necessário.
+
 
 
