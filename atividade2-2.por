@@ -3,7 +3,7 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro hospedes, diaria, quarto, diariaMenor = -3, diariaMaior = 0
+		inteiro hospedes, diaria, quarto, diariaMenor = -3, diariaMaior = 0, totalDiaria = 0
 
 		escreva("Quantos hóspedes? \n")
 		leia(hospedes)
@@ -21,6 +21,8 @@ programa
 			leia(diaria)
 			limpa()
 
+			totalDiaria = totalDiaria + diaria
+
 			se (diaria < diariaMenor ou diariaMenor == -3) 
 			{
 				diariaMenor = diaria
@@ -37,7 +39,7 @@ programa
 		}
 
 		
-		escreva("Valor total das diárias é de ainda não sei \n")
+		escreva("Valor total das diárias é de: R$ ", totalDiaria, ". \n")
 		escreva("Valor total da menor diária é de: R$ ", diariaMenor, ". \n")
 		escreva("Valor total da maior diária é de: R$ ", diariaMaior, ". \n")
 		
@@ -48,7 +50,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 833; 
+ * @POSICAO-CURSOR = 742; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
