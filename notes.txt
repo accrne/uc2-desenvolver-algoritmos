@@ -251,5 +251,36 @@ As estruturas de repetição podem ser definidas como pré-teste, pós-teste e c
 * Estrutura de repetição pré-teste: enquanto (while) *
 A estrutura pré-teste, tal como seu nome aponta, é uma estrutura que verificará se a condição especificada no código é atendida antes mesmo de executar os comandos do laço de repetição, dessa forma, enquanto a condição estiver sendo atendida (retornando verdadeiro), os comandos definidos dentro desse laço serão executados. Se a condição seguir sendo verdadeira, o comando seguirá sendo executado repetidamente até que a condição em algum momento retorne falso. Caso a condição não seja atendida já em sua primeira execução, a estrutura de repetição será finalizada e as informações dentro dela não serão percorridas em momento algum, portanto, ao criar essa estrutura de repetição, atente-se para que o contexto inserido permita a entrada nessa estrutura no mínimo uma vez quando necessário.
 
+* Enquanto (While) - verifica condição, depois executa a ação.
+
+* Faça Enquanto (Do-While) - executa a ação e depois verifica a condição.
+
+* Para (For) - variável de controle, início e fim da repetição.
+
+----------------------------------------------------------- // -----------------------------------------------------------
+
+
+* Validação e testes: teste de mesa e depuração de algoritmo *
+
+* Teste de mesa*
+Técnica de execução de  manual das linhas de um código, validando o mesmo, seguindo o passo a passo de todas as instruções; podendo validar a lógica ou encontrar erros. Portugol tem sua própria ferramenta de deburação já integrado.
+
+----------------------------------------------------------- // -----------------------------------------------------------
+
+* Estrutura de dados: conceitos, aplicação e usabilidade; vetores, matrizes *
+
+Ao armazenar valores de dados, os que variam no decorrer do programa são chamados de variáveis, quando se mantêm inalterados do início ao fim do programa são chamados de constantes. Estes são recursos simples e que podem limitar a eficiência de um sistema, portanto, utiliza-se a estrutura de dados para armazenar e utilizar de outras formas estes dados. Uma lógica de organização de múltiplos dados no sistema.
+
+* Conceitos
+
+Existem diferentes estruturas para diferentes aplicações: Vetores e matrizes; Registro; Lista; Pilha; Fila; Árvore; Dicionário. Nem todas as linguagens de programação tem tdas essas ferramnetas. 
+
+* Vetores e matrizes (arrays) são estruturas de dados simples, que são utilizadas em muitas variáveis do mesmo tipo.
+
+*Vetor: é uma variável que armazena várias variáveis do mesmo tipo. 
+
+* Matriz: é um vetor que armazena vários vetores.
+
+* Um vetor tem só uma dimensão, só uma linha de coordenadas. Já a matriz tem mais de uma dimensão e, consequentemente, mais de um índice de coordenadas.
 
 
