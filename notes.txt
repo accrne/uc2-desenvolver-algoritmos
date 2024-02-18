@@ -283,4 +283,21 @@ Existem diferentes estruturas para diferentes aplicações: Vetores e matrizes; 
 
 * Um vetor tem só uma dimensão, só uma linha de coordenadas. Já a matriz tem mais de uma dimensão e, consequentemente, mais de um índice de coordenadas.
 
+----------------------------------------------------------- // -----------------------------------------------------------
 
+* Matrizes *
+
+"... Matrizes são estruturas de dados multidimensionais, ou seja, têm mais de uma dimensão, como se fossem um gráfico cartesiano no qual há o eixo x e o eixo y..."
+
+matriz [] colunas [] linhas
+
+----------------------------------------------------------- // -----------------------------------------------------------
+
+
+* Sub-rotinas: declaração de funções e procedimentos, parâmetros, retorno e chamada  *
+
+Declaração de funções e procedimentos
+
+ Ambas funcionam com o princípio de escrever um pequeno pedaço de código que pode ser chamado várias vezes e em qualquer lugar de um programa
+
+um procedimento é um algoritmo que será executado, enquanto uma função é um algoritmo que será executado e produzirá um resultado final concreto que poderá ser usado por outro algoritmo
