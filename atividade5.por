@@ -1,20 +1,74 @@
 programa
 {
-
+	cadeia nome[10], nomeT
+	inteiro cpf[10], diasHospedagem[10], indiceHospede = 0, diasHospedagemT, cpfT
+	caracter confirmaCadastro = 'n'
 	
-	
-	cadeia nome[10], cpf[10], nomeT, cpfT
-	real despesaHotel[10]
-	inteiro diasHospedagem[10], indiceHospede = 0, exibirIndice = 0, diasHospedagemT
 	funcao inicio()
 	{
-		
-		
 		exibeMenu()
+	}
+
+	funcao cadastrar()
+	{
+		faca {
+
+			se (indiceHospede >= 9)
+			{
+				escreva("Os cadastros estão lotados.")
+				exibeMenu()
+			} senao 
+			{
+				escreva("Digite o nome do hóspede. \n")
+				leia(nomeT)
+				limpa()
+
+				escreva("Digite o CPF do hóspede. \n")
+				leia(cpfT)
+				limpa()
+
+				escreva("Digite quantidade de dias de hospedagem. \n")
+				leia(diasHospedagemT)
+				limpa()
+
+				escreva("Índice: ", indiceHospede, "\n")
+				escreva("Nome: ", nomeT, "  CPF: ", cpfT, "\n")
+				escreva("Quantidade de Dias: ", diasHospedagemT, "\n")
+				escreva("Confirma as informações? (s) Sim/(n) Não. \n")
+				leia(confirmaCadastro)
+				limpa()
+
+				se (confirmaCadastro == 's')
+			
+				{
+					escreva("Cadastro realizado com sucesso.")
+					nome[indiceHospede] = nomeT
+					cpf[indiceHospede] = cpfT
+					diasHospedagem[indiceHospede] = diasHospedagemT
+					indiceHospede++
+
+					exibeMenu()
+				
+				} 
+			} 
+			} enquanto (confirmaCadastro == 'n')
+	}
+
+	funcao exibeUsuario()
+	{
+		para(inteiro i = 0; i <=9; i++)
+		{
+			
+			se (nome[i] != "") 
+			{
+				escreva("Índice: ", i, "\n")
+				escreva("Nome: ", nome[i], "  CPF: ", cpf[i], "\n")
+				escreva("Quantidade de Dias: ", diasHospedagem[i], "\n")
+			}
+		}
 	}
 	
 	funcao exibeMenu() 
-	
 	{
 		inteiro menu
 		logico repeticaoMenu = falso
@@ -32,14 +86,13 @@ programa
 						pare
 			
 					caso 1:
-						cadastraUsu()
+						cadastrar()
 						pare
 				
 					caso 2:
-												
-						exibirUsu()						
+						exibeUsuario()					
 						pare
-				
+						
 					caso 3:
 						escreva("reservar")
 						pare
@@ -53,74 +106,16 @@ programa
 						repeticaoMenu = verdadeiro
 				}		
 			} enquanto (repeticaoMenu == verdadeiro)
-			}
-
-	funcao cadastranome()
-	{
-		nomeT = nome[indiceHospede]
-	}
-
-	funcao cadastraCpf()
-	{
-		cpfT = cpf[indiceHospede]
-	}
-
-	funcao cadastraDias()
-	{
-		diasHospedagemT = diasHospedagem[indiceHospede]
-	}
-
-	funcao exibirUsu()
-	{
-		escreva("Digite o índice do usuário. \n")
-		leia(exibirIndice)
-		limpa()
-		
-		escreva("INDICE", exibirIndice, "\n")
-		escreva("NOME", nome[exibirIndice], "\n")
-		escreva("CPF", cpf[exibirIndice], "\n")
-		escreva("DIAS", diasHospedagem[exibirIndice], "\n")
-	}
-		
-	funcao cadastraUsu()
-	{	
-		se (indiceHospede <= 10)
-		{
-			escreva("Pode cadastrar. Digite o nome do hóspede. \n")
-			leia(nome[indiceHospede])
-			limpa()
-
-			escreva("Digite o CPF. \n")
-			leia(cpf[indiceHospede])
-			limpa()
-
-			escreva("Digite o número de dias da hospedagem. \n")
-			leia(diasHospedagem[indiceHospede])
-			limpa()
-
-			exibeMenu()
-
-			/* 	Índice: 0
-				Nome: João CPF: 23456789
-				Quantidade de Dias: 3
-				Confirma as informações (S/N)? 	*/
-			
-		} senao 
-		{
-			escreva("Número de usuários máximos atingidos. \n")
-			exibeMenu()
-		}
-		
-	}
+			}	
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1072; 
+ * @POSICAO-CURSOR = 1906; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {cpf, 4, 9, 3}-{indiceHospede, 4, 38, 13}-{menu, 73, 10, 4};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
